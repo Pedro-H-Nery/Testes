@@ -4,15 +4,15 @@
 
 ### 1. Adicionar nova função
 
-#### Rota da API
+#### 1. Rota da API
 
 POST -> `api/jobs`
 
-#### Parâmetros e Suas Utilidades
+#### 2. Parâmetros e Suas Utilidades
 
 Sem parâmetros
 
-#### Exemplo de Requisição
+#### 3. Exemplo de Requisição
 
 POST -> `api/jobs`
 

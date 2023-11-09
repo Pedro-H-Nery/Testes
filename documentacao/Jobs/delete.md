@@ -4,15 +4,15 @@
 
 ### 1. Deletar uma função
 
-#### Rota da API
+#### 1. Rota da API
 
 DELETE -> `api/jobs/{Job_id}`
 
-#### Parâmetros e Suas Utilidades
+#### 2. Parâmetros e Suas Utilidades
 
 Job_id\*: o id da função que será deletada
 
-#### Exemplo de Requisição
+#### 3. Exemplo de Requisição
 
 DELETE -> `api/jobs/1`
 

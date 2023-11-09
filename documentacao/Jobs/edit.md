@@ -4,15 +4,15 @@
 
 ### 1. Editar uma função
 
-#### Rota da API
+#### 1. Rota da API
 
 PUT -> `api/jobs/{Job_id}`
 
-#### Parâmetros e Suas Utilidades
+#### 2. Parâmetros e Suas Utilidades
 
 Job_id\*: o id da função que será editada
 
-#### Exemplo de Requisição
+#### 3. Exemplo de Requisição
 
 PUT -> `api/jobs/1`
 
