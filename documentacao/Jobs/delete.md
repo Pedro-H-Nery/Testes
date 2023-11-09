@@ -1,8 +1,8 @@
 ## Jobs -> Delete
 
-### Requisição para API
-
 ### 1. Deletar uma função
+
+### Requisição para API
 
 #### 1. Rota da API
 
