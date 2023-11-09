@@ -1,26 +1,26 @@
 ## Jobs -> Index
 
-### Requisição para API
-
 ### 1. Listagem de todas as funções
 
-#### Rota da API
+### Requisição para API
 
-GET -> `api/jobs`
+#### 1. Rota da API
 
-#### Parâmetros e Suas Utilidades
+     -> `api/jobs`
 
-Sem parâmetros
+#### 2. Parâmetros e Suas Utilidades
 
-#### Exemplo de Requisição
+    Sem parâmetros
 
-GET -> `api/jobs`
+#### 3. Exemplo de Requisição
 
-Body:
+    GET -> `api/jobs`
 
-```json
-{}
-```
+    Body:
+
+    ```json
+    {}
+    ```
 
 ### Retorno da API
 
@@ -75,23 +75,25 @@ Retorna um json contendo uma lista com as funções da empresa atual e suas info
 
 ### 2. Listagem com o nome e id
 
-#### Rota da API
+### Requisição para API
 
-GET -> `api/jobs?list_all=basic`
+#### 1. Rota da API
 
-#### Parâmetros e Suas Utilidades
+    GET -> `api/jobs?list_all=basic`
 
-list_all: recebe a palavra `basic` para indicar que a listagem é de apenas o id e o nome das funções
+#### 2. Parâmetros e Suas Utilidades
 
-#### Exemplo de Requisição
+    list_all: recebe a palavra `basic` para indicar que a listagem é de apenas o id e o nome das funções
 
-GET -> `api/jobs?list_all=basic`
+#### 3. Exemplo de Requisição
 
-Body:
+    GET -> `api/jobs?list_all=basic`
 
-```json
-{}
-```
+    Body:
+
+    ```json
+    {}
+    ```
 
 ### Retorno da API
 
