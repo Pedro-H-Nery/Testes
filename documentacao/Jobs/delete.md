@@ -28,25 +28,25 @@ Body:
 
 Retorna um json contendo as informações da função que foi deletada e uma mensagem de sucesso.
 
-**Ex**:
+    **Ex**:
 
-```json
-{
-  "App\\Model\\Entity\\Job": {
-    "id": 1,
-    "name": "Exemplo 1",
-    "company_id": 1,
-    "created": "2023-11-09T01:36:42-03:00",
-    "modified": "2023-11-09T01:43:11-03:00",
-    "active": true,
-    "deleted": null,
-    "created_by": 3,
-    "deleted_by": 3
-  },
-  "message": "Sucesso ao deletar Função!",
-  "status": 1
-}
-```
+    ```json
+    {
+    "App\\Model\\Entity\\Job": {
+        "id": 1,
+        "name": "Exemplo 1",
+        "company_id": 1,
+        "created": "2023-11-09T01:36:42-03:00",
+        "modified": "2023-11-09T01:43:11-03:00",
+        "active": true,
+        "deleted": null,
+        "created_by": 3,
+        "deleted_by": 3
+    },
+    "message": "Sucesso ao deletar Função!",
+    "status": 1
+    }
+    ```
 
 #### Erro(s)
 
@@ -74,22 +74,22 @@ Retorna um json contendo as informações da função que foi deletada e uma men
 
 3.  Se acontecer algum erro ao tentar deletar a função passada como parâmetro
 
-**Ex**:
+    **Ex**:
 
-```json
-{
-  "status": 0,
-  "message": "Erro ao deletar Função!"
-}
-```
+    ```json
+    {
+      "status": 0,
+      "message": "Erro ao deletar Função!"
+    }
+    ```
 
-4. Se acontecer algum outro erro ao tentar achar a função passada como parâmetro
+4.  Se acontecer algum outro erro ao tentar achar a função passada como parâmetro
 
-**Ex**:
+    **Ex**:
 
-```json
-{
-  "status": 0,
-  "message": "Erro interno no sistema"
-}
-```
+    ```json
+    {
+      "status": 0,
+      "message": "Erro interno no sistema"
+    }
+    ```
