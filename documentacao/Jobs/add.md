@@ -32,20 +32,20 @@ Retorna um json contendo as informações da função que foi criada e uma mensa
 
 **Ex**:
 
-    ```json
-    {
-    "App\\Model\\Entity\\Job": {
-        "name": "Exemplo 1",
-        "company_id": 1,
-        "created": "2023-11-09T01:36:42-03:00",
-        "modified": "2023-11-09T01:36:42-03:00",
-        "created_by": 3,
-        "id": 1
-    },
-    "message": "Sucesso ao adicionar Função!",
-    "status": 1
-    }
-    ```
+```json
+{
+  "App\\Model\\Entity\\Job": {
+    "name": "Exemplo 1",
+    "company_id": 1,
+    "created": "2023-11-09T01:36:42-03:00",
+    "modified": "2023-11-09T01:36:42-03:00",
+    "created_by": 3,
+    "id": 1
+  },
+  "message": "Sucesso ao adicionar Função!",
+  "status": 1
+}
+```
 
 #### Erro(s)
 

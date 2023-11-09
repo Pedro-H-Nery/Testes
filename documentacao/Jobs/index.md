@@ -100,15 +100,15 @@ Body:
 Retorna um json contendo uma lista com o id e o nome de cada uma das funções da empresa atual.
 **Ex**:
 
-    ```json
-    {
-    "Jobs": {
-        "1": "Exemplo 1",
-        "2": "Exemplo 2"
-    },
-    "status": 1
-    }
-    ```
+```json
+{
+  "Jobs": {
+    "1": "Exemplo 1",
+    "2": "Exemplo 2"
+  },
+  "status": 1
+}
+```
 
 #### Erro(s)
 

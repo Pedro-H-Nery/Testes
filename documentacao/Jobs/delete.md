@@ -30,23 +30,23 @@ Retorna um json contendo as informações da função que foi deletada e uma men
 
 **Ex**:
 
-    ```json
-    {
-    "App\\Model\\Entity\\Job": {
-        "id": 1,
-        "name": "Exemplo 1",
-        "company_id": 1,
-        "created": "2023-11-09T01:36:42-03:00",
-        "modified": "2023-11-09T01:43:11-03:00",
-        "active": true,
-        "deleted": null,
-        "created_by": 3,
-        "deleted_by": 3
-    },
-    "message": "Sucesso ao deletar Função!",
-    "status": 1
-    }
-    ```
+```json
+{
+  "App\\Model\\Entity\\Job": {
+    "id": 1,
+    "name": "Exemplo 1",
+    "company_id": 1,
+    "created": "2023-11-09T01:36:42-03:00",
+    "modified": "2023-11-09T01:43:11-03:00",
+    "active": true,
+    "deleted": null,
+    "created_by": 3,
+    "deleted_by": 3
+  },
+  "message": "Sucesso ao deletar Função!",
+  "status": 1
+}
+```
 
 #### Erro(s)
 
