@@ -1,12 +1,12 @@
-## Jobs -> Index
+## Indicators -> Index
 
-### 1. Listagem de todas as funções
+### 1. Listagem de todos os indicadores
 
 ### Requisição para API
 
 #### 1. Rota da API
 
-GET-> `api/jobs`
+GET-> `api/indicators`
 
 #### 2. Parâmetros e Suas Utilidades
 
@@ -14,7 +14,7 @@ Sem parâmetros
 
 #### 3. Exemplo de Requisição
 
-GET -> `api/jobs`
+GET -> `api/indicators`
 
 Body:
 
@@ -26,13 +26,13 @@ Body:
 
 #### Sucesso
 
-Retorna um json contendo uma lista com as funções da empresa atual e suas informações.
+Retorna um json contendo uma lista com os indicadores da empresa atual e suas informações.
 
 **Ex**:
 
 ```json
 {
-  "Jobs": [
+  "Indicators": [
     {
       "id": 1,
       "name": "Exemplo 1",
@@ -62,7 +62,7 @@ Retorna um json contendo uma lista com as funções da empresa atual e suas info
 
 #### Erro(s)
 
-1.  Se o usuário não for Master ou então não for um usuário de nível de permissão igual ou superior a Gestor tentando ver as funções da empresa que participa
+1.  Se o usuário não for Master ou então não for um usuário de nível de permissão igual ou superior a Gestor tentando ver os indicadores da empresa que participa
 
     **Ex**:
 
@@ -73,21 +73,21 @@ Retorna um json contendo uma lista com as funções da empresa atual e suas info
     }
     ```
 
-### 2. Listagem com o nome e id das funções
+### 2. Listagem com o nome e id dos indicadores
 
 ### Requisição para API
 
 #### 1. Rota da API
 
-GET -> `api/jobs?list_all=basic`
+GET -> `api/indicators?list_all=basic`
 
 #### 2. Parâmetros e Suas Utilidades
 
-list_all: recebe a palavra `basic` para indicar que a listagem é de apenas o id e o nome das funções
+list_all: recebe a palavra `basic` para indicar que a listagem é de apenas o id e o nome dos indicadores
 
 #### 3. Exemplo de Requisição
 
-GET -> `api/jobs?list_all=basic`
+GET -> `api/indicators?list_all=basic`
 
 Body:
 
@@ -99,12 +99,12 @@ Body:
 
 #### Sucesso
 
-Retorna um json contendo uma lista com o id e o nome de cada uma das funções da empresa atual.
+Retorna um json contendo uma lista com o id e o nome de cada um dos indicadores da empresa atual.
 **Ex**:
 
 ```json
 {
-  "Jobs": {
+  "Indicators": {
     "1": "Exemplo 1",
     "2": "Exemplo 2"
   },
@@ -114,7 +114,7 @@ Retorna um json contendo uma lista com o id e o nome de cada uma das funções d
 
 #### Erro(s)
 
-1.  Se o usuário não for Master ou então não for um usuário de nível de permissão igual ou superior a Gestor tentando ver as funções da empresa que participa
+1.  Se o usuário não for Master ou então não for um usuário de nível de permissão igual ou superior a Gestor tentando ver os indicadores da empresa que participa
 
     **Ex**:
 
