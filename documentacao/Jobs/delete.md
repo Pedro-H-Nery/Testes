@@ -1,8 +1,8 @@
-## Add
+## Delete
 
 ### Requisição para API
 
-### 1. Adicionar nova função
+### 1. Deletar uma função
 
 #### Rota da API
 

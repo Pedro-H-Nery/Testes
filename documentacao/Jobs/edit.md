@@ -1,8 +1,8 @@
-## Add
+## Edit
 
 ### Requisição para API
 
-### 1. Adicionar nova função
+### 1. Editar uma função
 
 #### Rota da API
 
