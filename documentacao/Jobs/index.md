@@ -4,15 +4,15 @@
 
 ### Requisição para API
 
-#### 1. Rota da API
+#### 1-1. Rota da API
 
      -> `api/jobs`
 
-#### 2. Parâmetros e Suas Utilidades
+#### 1-2. Parâmetros e Suas Utilidades
 
     Sem parâmetros
 
-#### 3. Exemplo de Requisição
+#### 1-3. Exemplo de Requisição
 
     GET -> `api/jobs`
 
@@ -77,15 +77,15 @@ Retorna um json contendo uma lista com as funções da empresa atual e suas info
 
 ### Requisição para API
 
-#### 1. Rota da API
+#### 2-1. Rota da API
 
     GET -> `api/jobs?list_all=basic`
 
-#### 2. Parâmetros e Suas Utilidades
+#### 2-2. Parâmetros e Suas Utilidades
 
     list_all: recebe a palavra `basic` para indicar que a listagem é de apenas o id e o nome das funções
 
-#### 3. Exemplo de Requisição
+#### 2-3. Exemplo de Requisição
 
     GET -> `api/jobs?list_all=basic`
 
