@@ -52,27 +52,27 @@ Retorna um json contendo as informações da função que foi deletada e uma men
 
 1.  Se o usuário não for Master ou então não for um usuário de nível de permissão igual ou superior a Gestor tentando deletar uma função da empresa que participa
 
-**Ex**:
+    **Ex**:
 
-```json
-{
-  "status": 0,
-  "message": "Você não tem permissão para acessar esse recurso!"
-}
-```
+    ```json
+    {
+      "status": 0,
+      "message": "Você não tem permissão para acessar esse recurso!"
+    }
+    ```
 
-2. Se a função passada como parâmetro não for encontrada
+2.  Se a função passada como parâmetro não for encontrada
 
-**Ex**:
+    **Ex**:
 
-```json
-{
-  "status": 0,
-  "message": "Registro não encontrado!"
-}
-```
+    ```json
+    {
+      "status": 0,
+      "message": "Registro não encontrado!"
+    }
+    ```
 
-3. Se acontecer algum erro ao tentar deletar a função passada como parâmetro
+3.  Se acontecer algum erro ao tentar deletar a função passada como parâmetro
 
 **Ex**:
 
