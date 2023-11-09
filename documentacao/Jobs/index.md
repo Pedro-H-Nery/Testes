@@ -30,35 +30,35 @@ Retorna um json contendo uma lista com as funções da empresa atual e suas info
 
 **Ex**:
 
-    ```json
+```json
+{
+  "Jobs": [
     {
-    "Jobs": [
-        {
-        "id": 1,
-        "name": "Exemplo 1",
-        "company_id": 1,
-        "created": "2023-08-29T15:46:53-03:00",
-        "modified": "2023-08-29T16:54:40-03:00",
-        "active": true,
-        "deleted": null,
-        "created_by": 3,
-        "deleted_by": null
-        },
-        {
-        "id": 2,
-        "name": "Exemplo 2",
-        "company_id": 1,
-        "created": "2023-08-29T16:54:33-03:00",
-        "modified": "2023-08-29T16:54:33-03:00",
-        "active": true,
-        "deleted": null,
-        "created_by": 3,
-        "deleted_by": null
-        }
-    ],
-    "status": 1
+      "id": 1,
+      "name": "Exemplo 1",
+      "company_id": 1,
+      "created": "2023-08-29T15:46:53-03:00",
+      "modified": "2023-08-29T16:54:40-03:00",
+      "active": true,
+      "deleted": null,
+      "created_by": 3,
+      "deleted_by": null
+    },
+    {
+      "id": 2,
+      "name": "Exemplo 2",
+      "company_id": 1,
+      "created": "2023-08-29T16:54:33-03:00",
+      "modified": "2023-08-29T16:54:33-03:00",
+      "active": true,
+      "deleted": null,
+      "created_by": 3,
+      "deleted_by": null
     }
-    ```
+  ],
+  "status": 1
+}
+```
 
 #### Erro(s)
 
