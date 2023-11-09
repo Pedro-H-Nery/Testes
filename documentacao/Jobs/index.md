@@ -28,7 +28,7 @@ Body:
 
 Retorna um json contendo uma lista com as funções da empresa atual e suas informações.
 
-    **Ex**:
+**Ex**:
 
     ```json
     {

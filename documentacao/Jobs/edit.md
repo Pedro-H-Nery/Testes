@@ -30,7 +30,7 @@ Body:
 
 Retorna um json contendo as informações da função que foi editada e uma mensagem de sucesso.
 
-    **Ex**:
+**Ex**:
 
     ```json
     {

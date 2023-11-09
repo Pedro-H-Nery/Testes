@@ -28,7 +28,7 @@ Body:
 
 Retorna um json contendo as informações da função que foi deletada e uma mensagem de sucesso.
 
-    **Ex**:
+**Ex**:
 
     ```json
     {
