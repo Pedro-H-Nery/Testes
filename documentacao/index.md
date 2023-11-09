@@ -6,7 +6,7 @@
 |        Events        |       [Ver Documentação](Events.md)        |
 | Gamefication History | [Ver Documentação](GameficationHistory.md) |
 |      Indicators      |     [Ver Documentação](Indicators.md)      |
-|         Jobs         |        [Ver Documentação](Jobs.md)         |
+|         Jobs         |      [Ver Documentação](Jobs/Jobs.md)      |
 |  Managerment Tools   |  [Ver Documentação](ManagermentTools.md)   |
 |      Objectives      |     [Ver Documentação](Objectives.md)      |
 |        Rounds        |       [Ver Documentação](Rounds.md)        |
