@@ -6,21 +6,21 @@
 
 #### 1-1. Rota da API
 
-     -> `api/jobs`
+GET-> `api/jobs`
 
 #### 1-2. Parâmetros e Suas Utilidades
 
-    Sem parâmetros
+Sem parâmetros
 
 #### 1-3. Exemplo de Requisição
 
-    GET -> `api/jobs`
+GET -> `api/jobs`
 
-    Body:
+Body:
 
-    ```json
-    {}
-    ```
+```json
+{}
+```
 
 ### Retorno da API
 
@@ -79,21 +79,21 @@ Retorna um json contendo uma lista com as funções da empresa atual e suas info
 
 #### 2-1. Rota da API
 
-    GET -> `api/jobs?list_all=basic`
+GET -> `api/jobs?list_all=basic`
 
 #### 2-2. Parâmetros e Suas Utilidades
 
-    list_all: recebe a palavra `basic` para indicar que a listagem é de apenas o id e o nome das funções
+list_all: recebe a palavra `basic` para indicar que a listagem é de apenas o id e o nome das funções
 
 #### 2-3. Exemplo de Requisição
 
-    GET -> `api/jobs?list_all=basic`
+GET -> `api/jobs?list_all=basic`
 
-    Body:
+Body:
 
-    ```json
-    {}
-    ```
+```json
+{}
+```
 
 ### Retorno da API
 
