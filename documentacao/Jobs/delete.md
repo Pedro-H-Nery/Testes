@@ -15,6 +15,7 @@ Job_id\*: o id da função que será deletada
 #### Exemplo de Requisição
 
 DELETE -> `api/jobs/1`
+
 Body:
 
 ```json

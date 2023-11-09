@@ -15,6 +15,7 @@ Sem parâmetros
 #### Exemplo de Requisição
 
 GET -> `api/jobs`
+
 Body:
 
 ```json
@@ -25,7 +26,7 @@ Body:
 
 #### Sucesso
 
-Retorna um json contendo uma lista com as funções da empresa atual.
+Retorna um json contendo uma lista com as funções da empresa atual e suas informações.
 
 **Ex**:
 
@@ -85,6 +86,7 @@ list_all: recebe a palavra `basic` para indicar que a listagem é de apenas o id
 #### Exemplo de Requisição
 
 GET -> `api/jobs?list_all=basic`
+
 Body:
 
 ```json
