@@ -7,6 +7,7 @@
 #### 1. Rota da API
 
 GET-> `api/gamefication-history/best-users`
+
 GET-> `api/gamefication-history/best-users/{Round_id}`
 
 #### 2. Parâmetros e Suas Utilidades

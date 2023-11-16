@@ -7,6 +7,7 @@
 #### 1. Rota da API
 
 GET -> `api/gamefication-history`
+
 GET -> `api/gamefication-history/{User_id}`
 
 #### 2. Parâmetros e Suas Utilidades
