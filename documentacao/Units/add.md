@@ -27,7 +27,7 @@ Body:
 }
 ```
 
-OBS: os atributos `acronym`, `latitude` e `longitude` são opcionais
+OBS: o atributo `name` é obrigatório e os outros são opcionais.
 
 ### Retorno da API
 
@@ -57,7 +57,7 @@ Retorna um json contendo as informações da unidade que foi criada e uma mensag
 
 #### Erro(s)
 
-1.  Se o usuário não tiver um nível de permissão igual ou superior Gestor será retornada a mensagem de erro
+1.  Se o usuário não tiver um nível de permissão igual ou superior Gestor
 
     **Ex**:
 
@@ -68,7 +68,7 @@ Retorna um json contendo as informações da unidade que foi criada e uma mensag
     }
     ```
 
-2.  Se acontecer algum erro ao tentar salvar a unidade será retornada a mensagem de erro
+2.  Se acontecer algum erro ao tentar salvar a unidade
 
     **Ex**:
 

@@ -27,7 +27,7 @@ Body:
 }
 ```
 
-OBS: os atributos `acronym`, `latitude` e `longitude` são opcionais
+OBS: o atributo `name` é obrigatório e os outros são opcionais.
 
 ### Retorno da API
 

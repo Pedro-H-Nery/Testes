@@ -1,7 +1,7 @@
 |        Módulo        |                              Link                              |
 | :------------------: | :------------------------------------------------------------: |
 |       Actions        |                 [Ver Documentação](Actions.md)                 |
-|      Companies       |                [Ver Documentação](Companies.md)                |
+|      Companies       |           [Ver Documentação](Companies/Companies.md)           |
 |    CompanyPoints     |       [Ver Documentação](CompanyPoints/CompanyPoints.md)       |
 |        Events        |                 [Ver Documentação](Events.md)                  |
 | Gamefication History | [Ver Documentação](GameficationHistory/GameficationHistory.md) |

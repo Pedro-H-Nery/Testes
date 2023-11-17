@@ -49,7 +49,7 @@ Retorna um json contendo as informações do indicador que foi criado e uma mens
 
 #### Erro(s)
 
-1.  Se o usuário não tiver um nível de permissão igual ou superior Gestor será retornada a mensagem de erro
+1.  Se o usuário não tiver um nível de permissão igual ou superior Gestor
 
     **Ex**:
 
@@ -60,7 +60,7 @@ Retorna um json contendo as informações do indicador que foi criado e uma mens
     }
     ```
 
-2.  Se acontecer algum erro ao tentar salvar o indicador será retornada a mensagem de erro
+2.  Se acontecer algum erro ao tentar salvar o indicador
 
     **Ex**:
 

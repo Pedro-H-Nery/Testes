@@ -100,7 +100,7 @@ Retorna um json contendo as informações de todas as pontuações atuais das at
     }
     ```
 
-2.  Se acontecer algum erro ao tentar salvar a função será retornada a mensagem de erro
+2.  Se acontecer algum erro ao tentar salvar a função
 
     **Ex**:
 

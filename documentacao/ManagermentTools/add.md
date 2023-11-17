@@ -49,7 +49,7 @@ Retorna um json contendo as informações da ferramenta de gestão que foi criad
 
 #### Erro(s)
 
-1.  Se o usuário não tiver um nível de permissão igual ou superior Gestor será retornada a mensagem de erro
+1.  Se o usuário não tiver um nível de permissão igual ou superior Gestor
 
     **Ex**:
 
@@ -60,7 +60,7 @@ Retorna um json contendo as informações da ferramenta de gestão que foi criad
     }
     ```
 
-2.  Se acontecer algum erro ao tentar salvar a ferramenta de gestão será retornada a mensagem de erro
+2.  Se acontecer algum erro ao tentar salvar a ferramenta de gestão
 
     **Ex**:
 
