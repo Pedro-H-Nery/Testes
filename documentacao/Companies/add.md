@@ -14,7 +14,7 @@ Sem parâmetros
 
 #### 3. Exemplo de Requisição
 
-GET -> `api/companies`
+POST -> `api/companies`
 
 Body:
 

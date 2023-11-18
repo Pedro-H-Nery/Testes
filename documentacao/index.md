@@ -5,6 +5,7 @@
 |    CompanyPoints     |       [Ver Documentação](CompanyPoints/CompanyPoints.md)       |
 |        Events        |                 [Ver Documentação](Events.md)                  |
 | Gamefication History | [Ver Documentação](GameficationHistory/GameficationHistory.md) |
+|       Holidays       |            [Ver Documentação](Holidays/Holidays.md)            |
 |      Indicators      |          [Ver Documentação](Indicators/Indicators.md)          |
 |         Jobs         |                [Ver Documentação](Jobs/Jobs.md)                |
 |  Managerment Tools   |    [Ver Documentação](ManagermentTools/ManagermentTools.md)    |
@@ -16,4 +17,4 @@
 |       Sectors        |             [Ver Documentação](Sectors/Sectors.md)             |
 |        Units         |               [Ver Documentação](Units/Units.md)               |
 |        Users         |                  [Ver Documentação](Users.md)                  |
-|    Working Groups    |              [Ver Documentação](WorkingGroups.md)              |
+|    Working Groups    |       [Ver Documentação](WorkingGroups/WorkingGroups.md)       |

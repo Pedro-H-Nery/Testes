@@ -57,7 +57,7 @@ Retorna um json contendo as informações da unidade que foi criada e uma mensag
 
 #### Erro(s)
 
-1.  Se o usuário não tiver um nível de permissão igual ou superior Gestor
+1.  Se o usuário não tiver um nível de permissão igual ou superior a Gestor
 
     **Ex**:
 
