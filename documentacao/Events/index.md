@@ -7,18 +7,23 @@
 #### 1. Rota da API
 
 GET-> `api/events`
+
 GET-> `api/events/{User_id}`
+
 GET-> `api/events?share={Código}`
 
 #### 2. Parâmetros e Suas Utilidades
 
 User_id: id do usuário que se deseja ver a agenda. Se não for especificado será retornada a agenda do usuário atual.
+
 share: código de compartilhamento da agenda de um usuário. Se não for especificado será retornada a agenda do usuário atual.
 
 #### 3. Exemplo de Requisição
 
 GET-> `api/events`
+
 GET-> `api/events/2`
+
 GET-> `api/events?share=o2uho23uo5h2o4h343u24h32h`
 
 Body:
@@ -423,25 +428,37 @@ Retorna um json contendo as informações do usuário específicado/usuário atu
 #### 1. Rota da API
 
 GET-> `api/events/{User_id},{User_id},{User_id}`
+
 GET-> `api/events?sector_id_view={Sector_id}`
+
 GET-> `api/events?working_group_id_view={Working_Group_id}`
+
 GET-> `api/events?unit_id_view={Unit_id}`
+
 GET-> `api/events?job_id_view={Job_id}`
 
 #### 2. Parâmetros e Suas Utilidades
 
-User_id\*: ids dos usuários separado por vírgula que se deseja ver a agenda mesclada
-sector_id_view: id do setor que se deseja ver a agenda mesclada dos usuários desse setor
-working_group_id_view: id do grupo de trabalho que se deseja ver a agenda mesclada dos usuários desse grupo de trabalho
-unit_id_view: id da unidade que se deseja ver a agenda mesclada dos usuários dessa unidade
-job_id_view: id da função que se deseja ver a agenda mesclada dos usuários dessa função
+User_id\*: ids dos usuários separado por vírgula que se deseja ver a agenda mesclada;
+
+sector_id_view: id do setor que se deseja ver a agenda mesclada dos usuários desse setor;
+
+working_group_id_view: id do grupo de trabalho que se deseja ver a agenda mesclada dos usuários desse grupo de trabalho;
+
+unit_id_view: id da unidade que se deseja ver a agenda mesclada dos usuários dessa unidade;
+
+job_id_view: id da função que se deseja ver a agenda mesclada dos usuários dessa função.
 
 #### 3. Exemplo de Requisição
 
 GET-> `api/events/5,6`
+
 GET-> `api/events?sector_id_view=1`
+
 GET-> `api/events?working_group_id_view=1`
+
 GET-> `api/events?unit_id_view=1`
+
 GET-> `api/events?job_id_view=1`
 
 Body:
