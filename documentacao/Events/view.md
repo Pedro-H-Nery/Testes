@@ -39,12 +39,19 @@ Body:
 #### Sucesso
 
 Retorna um json contendo as informações do evento espeficicado pelo Model_type e pelo Model_id. Se o model id for:
+
 `event` -> Informações do compromisso incluindo informações da empresa, usuário dono do compromisso e dos usuário que são convidados do compromisso;
+
 `action` -> Informações da ação incluindo informações da empresa, dos usuários responsáveis pela ação e do usuário dono da ação;
+
 `holiday` -> Informações da ausência incluindo informações das unidades em que a ausência é válida e do usuário que é afetado pela ausência(mesmo que a ausência seja apenas para unidade(s) ou para um usuário);
+
 `ticket` -> Informações do chamado incluindo informações da empresa, da unidade responsável pelo chamado, do usuário que fez o último comentário no chamado, do usuário dono do chamado, do setor responsável pelo chamado e das unidades responsáveis pelo chamado(mesmo que o chamado seja apenas para um setor ou para uma unidade);
+
 `training` -> Informações da formação incluindo informações da unidade que está a formação;
+
 `schedule` -> Informaçoes da reunião incluindo informações da unidade que está a reunião, do usuário dono da reunião, da frequência da reunião, dos usuários participantes e dos usuários convidados da reunião;
+
 `task` -> Informações da tarefa da rotina produtiva incluindo informações da unidade que está a rotina produtiva.
 
 **Ex**:
