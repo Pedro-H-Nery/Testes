@@ -13,8 +13,11 @@ Acontecerá um conflito se o usuário estiver tentando cadastrar ou editar uma r
 Quando um evento ou reunião for tentar ser adicionada/editada mas aconteceu um conflito então os seguintes campos estarão preenchidos:
 
 `conflict`: `true`;
-`conflicted_users_text`: `"<strong>{Nome do usuário}, \"{Nome do Usuário}\" são os usuários que possuem conflito de horário com {o evento/a reunião} que você quer agendar</strong><br>Se você realmente deseja cadastar {esse evento/ essa reunião} clique no botão novamente."`
+
+`conflicted_users_text`: `"<strong>{Nome do usuário}, \"{Nome do Usuário}\" são os usuários que possuem conflito de horário com {o evento/a reunião} que você quer agendar</strong><br>Se você realmente deseja cadastar {esse evento/ essa reunião} clique no botão novamente."`;
+
 `conflicted_init_date`: Data de início que gerou conflito;
+
 `conflicted_end_date`: Data de fim que gerou conflito;
 
 ### 3. Como resolver um conflito?

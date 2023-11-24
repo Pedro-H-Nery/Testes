@@ -242,13 +242,13 @@ Se a empresa não possui gameficação então no atributo `message` estará apen
     }
     ```
 
-1.  Se acontecer algum erro ao tentar salvar a ação
+2.  Se acontecer algum erro ao tentar salvar a ação
 
-        **Ex**:
+    **Ex**:
 
-        ```json
-        {
-          "status": 0,
-          "message": "Erro ao concluir ação!"
-        }
-        ```
+    ```json
+    {
+      "status": 0,
+      "message": "Erro ao concluir ação!"
+    }
+    ```

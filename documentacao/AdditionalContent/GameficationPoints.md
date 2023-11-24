@@ -44,9 +44,13 @@ Os pontos vão ser dados para o responsável ou para o dono da atividade e não 
 Quando uma atividade for feita e se ela puder gerar pontos então no campo `message` do retorno da api se tornará um array com os seguintes campos:
 
 `message`: Mensagem de sucesso padrão da atividade;
+
 `points_message`: Mensagem de sucesso com a quantidade de pontos que a atividade gerou e o total de pontos;
+
 `points`: Pontos que a atividade gerou;
+
 `total`: Pontos totais do usuário na rodada atual;
+
 `error`: Tipo de erro que ocorreu.
 
 ### 4. Quais são os erros possíveis?

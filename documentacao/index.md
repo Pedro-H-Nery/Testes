@@ -13,7 +13,6 @@
 |        Rounds        |              [Ver Documentação](Rounds/Rounds.md)              |
 |        Rules         |               [Ver Documentação](Rules/Rules.md)               |
 |       Rulings        |             [Ver Documentação](Rulings/Rulings.md)             |
-|      Schedules       |           [Ver Documentação](Schedules/Schedules.md)           |
 |       Sectors        |             [Ver Documentação](Sectors/Sectors.md)             |
 |        Units         |               [Ver Documentação](Units/Units.md)               |
 |        Users         |               [Ver Documentação](Users/Users.md)               |
