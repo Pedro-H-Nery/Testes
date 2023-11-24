@@ -73,4 +73,4 @@ Retorna um json com as informações de pontuação dos usuários ordenado por a
 
 #### Erro(s)
 
-Não possui erros possíveis
+Não possui erros possíveis.
