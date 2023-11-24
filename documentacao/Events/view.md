@@ -11,10 +11,15 @@ GET -> `api/events/{User_id}/{Model_type}/{Model_id}?start={Data}&share_code={C�
 #### 2. Parâmetros e Suas Utilidades
 
 User_id\*: id do usuário que está tentando ver um evento da agenda.
+
 Model_type\*: modelo do evento que o usuário está tentando ver. Pode ser: `event` para compromissos, `action` para ações, `holiday` para ausências, `ticket` para chamados, `training` para formações, `schedule` para reuniões e `task` para tarefas da rotina produtiva.
+
 Model_id\*: id do modelo do evento que o usuário está tentando ver.
+
 start: Data em que o evento começou. Obrigatório caso o Model_type seja `task`.
+
 share_code: Código de compartilhamento da agenda. Obrigatório caso o usuário esteja tentando ver o evento de outro usuário.
+
 redirect: Link de redirecionamento usado quando o usuário interage com o evento que está visualizando. Obrigatório quando o Model_type for `action`, `holiday` e `ticket`,
 
 #### 3. Exemplo de Requisição
