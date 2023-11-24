@@ -25,7 +25,9 @@ redirect: Link de redirecionamento usado quando o usuário interage com o evento
 #### 3. Exemplo de Requisição
 
 GET -> `api/events/2/action/1?start=2023-06-29&share_code=v6465cw34334564v5vqc34&redirect={Início da url}/events?company_id=1&unit_id=1`
+
 `Exemplo de Início da url: http://localhost/pastaDoProjeto`
+
 Body:
 
 ```json
